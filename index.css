@@ -1,5 +1,105 @@
-html, body {
+body{
     margin: 0;
     padding: 0;
+    background-color: #EDEDED;
+}
+.container{
+    width: 375px;
+    height: 1767px;
+    border: 1px solid  black;
+    margin: 0 auto;
+
+    
 }
 
+
+.header{
+    width: 375px;
+    height: 67px;
+    background-color: #ffff;
+    border-bottom: 1px solid #C6C6C6C6;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.img-logo{
+    width: 127px;
+    height: 33.02px;
+    padding: 16px;
+    
+}
+/* body > div > div.post > div > div > div > span{
+    font-weight: 900;
+} */
+
+.name{
+
+        display: flex;
+        margin-top: 10px;
+        /* margin-bottom: 51px; */
+        font-size: 18px;
+        line-height: 16px;
+        align-items: center;
+        justify-content: center;
+        margin-left: 10px;
+        font-weight: 900;
+        margin-bottom: 5px;
+    }
+.location{
+        font-size: 16px;
+        margin-left: 10px;
+    }
+
+.user-img{
+    width: 42px;
+    height: 42px;
+    padding: 16px;
+    border-radius: 50%;
+    margin-top:-4px;
+}
+.avatar{
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    margin:10px 0px 0px 10px;
+}
+
+.post{
+    width: 375px;
+    height: 545px;
+    background-color: #ffff;
+}
+.post_header{
+    display: flex;
+    width: 348px;
+    height: 34px;
+}
+
+.post_img{
+    width: 375px;
+    height: 375px;
+    margin-top: 30px;
+}
+.icon-img{
+    width: 34px;
+    height: 34px;
+    padding-right: 12px;
+}
+.icons{
+    padding:15px;
+    padding-bottom: 0px
+
+
+}
+.icons:hover{
+    cursor: pointer;
+    color: rgb(153, 149, 149);
+}
+.details{
+ font-weight: 700;
+ font-size:16px;
+ margin-top:0px;
+ padding-left: 15px;
+ margin-bottom: -11px;
+}
